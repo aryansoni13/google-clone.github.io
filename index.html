@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Search Engine</title>
+
+  <link rel="icon" href="favicon.png">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="img-fluid">
+    </div>
+    <div class="search-form">
+      <form action="https://www.google.com/search" method="GET">
+        <input type="text" name="q" class="search-input" placeholder="Search">
+        <button type="submit" class="btn btn-primary search-btn">Search</button>
+      </form>
+    </div>
+    <div class="theme-toggle">
+      <button id="lightModeBtn">Light Mode</button>
+      <button id="darkModeBtn">Dark Mode</button>
+    </div>
+    <div class="quote">
+      <p id="quoteText"></p>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
