@@ -21,7 +21,7 @@ A simple Google search page clone built using HTML, CSS, and JavaScript. This pr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/google-clone.git
+   git clone https://github.com/aryansoni13/google-clone.git
 
 2. Navigate to the project directory:
    ```bash
